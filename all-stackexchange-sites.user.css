@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           All stackexchange sites
+@namespace      github.com/openstyles/stylus
+@version        0.1.0
+@author         Phil
+@updateURL      https://raw.githubusercontent.com/olsonpm/user-css/dev/all-stackexchange-sites.user.css
+==/UserStyle== */
+
+@-moz-document regexp(".*") {
+  ._danger-indicator::after {
+    display: none !important;
+  }
+}
