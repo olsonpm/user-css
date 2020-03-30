@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           All stackexchange sites
+@namespace      github.com/openstyles/stylus
+@version        0.1.0
+@author         Phil
+@updateURL      https://raw.githubusercontent.com/olsonpm/user-css/dev/mail.protonmail.com.user.css
+==/UserStyle== */
+
+@-moz-document domain("mail.protonmail.com") {
+  li[data-key="inbox"] .navigationItem-counter {
+    display: none;
+  }
+}
