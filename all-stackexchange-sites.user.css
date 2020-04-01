@@ -1,13 +1,14 @@
 /* ==UserStyle==
 @name           All stackexchange sites
 @namespace      github.com/openstyles/stylus
-@version        0.1.1
+@version        0.1.2
 @author         Phil
 @updateURL      https://raw.githubusercontent.com/olsonpm/user-css/dev/all-stackexchange-sites.user.css
 ==/UserStyle== */
 
 @-moz-document regexp(".*") {
   ._danger-indicator::after,
+  .theme-selector,
   #divQuestionFollowFeaturePopover {
     display: none !important;
   }
