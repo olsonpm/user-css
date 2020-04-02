@@ -1,0 +1,100 @@
+/* ==UserStyle==
+@name           mail.google.com
+@namespace      github.com/openstyles/stylus
+@version        0.1.0
+@author         Phil
+@updateURL      https://raw.githubusercontent.com/olsonpm/user-css/dev/mail.google.com.user.css
+==/UserStyle== */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@-moz-document domain("mail.google.com") {
+  #\:2 {
+    display: none;
+  }
+
+  #\:3 {
+    overflow-y: auto;
+  }
+
+  .aRz.J-KU:hover {
+    background-color: transparent;
+  }
+
+  .gb_Xb {
+    display: none;
+  }
+
+  .aBS.J-J5-Ji {
+    display: none;
+  }
+
+  #aso_search_form_anchor {
+    background-color: transparent;
+    width: 50%;
+  }
+
+  .SK.ZF-zT {
+    right: 116px;
+    top: 2px;
+  }
+
+  .aRu {
+    display: none;
+  }
+
+  .n1 .n0 {
+    font-weight: normal;
+  }
+
+  .apU.xY {
+    display: none;
+  }
+
+  .yX.xY {
+    margin-left: 16px;
+  }
+
+  .zA.yO {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .xT {
+    display: block;
+  }
+
+  .Zt {
+    display: none;
+  }
+
+  .y2 {
+    display: block;
+    width: 800px;
+  }
+
+  .n0,
+  .y2,
+  .bog,
+  .yW {
+    font-family: 'Open Sans', sans-serif !important;
+  }
+
+  .gb_lc.gb_qc.gb_sc {
+    margin-left: 256px;
+  }
+
+  body > div > .nH {
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nH.bAw.nn.it {
+    display: none;
+  }
+
+  .D.E.G-atb {
+    margin-right: 0 !important;
+  }
+}
