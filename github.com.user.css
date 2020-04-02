@@ -1,0 +1,57 @@
+/* ==UserStyle==
+@name           github.com
+@namespace      github.com/openstyles/stylus
+@version        0.1.0
+@author         Phil
+@updateURL      https://raw.githubusercontent.com/olsonpm/user-css/dev/github.com.user.css
+==/UserStyle== */
+
+@-moz-document domain("github.com") {
+  .application-main > :nth-child(2) {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1200px;
+    overflow: auto;
+  }
+
+  .application-main > :nth-child(2) > :first-child {
+    border-right: none !important;
+    float: right;
+  }
+
+  .application-main > :nth-child(2) > :first-child > :first-child {
+    border-right: none !important;
+  }
+
+  .application-main > :nth-child(2) > :first-child > :nth-child(2) {
+    background-color: white;
+    border-right: 1px solid #e1e4e8 !important;
+  }
+
+  .application-main > :nth-child(2) > :first-child {
+    float: left;
+    width: 25%;
+  }
+
+  .application-main > :nth-child(2) > :nth-child(2) {
+    float: left;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    width: 75%;
+  }
+
+  .application-main > :nth-child(2) > :nth-child(3) {
+    display: none;
+  }
+
+  .js-header-wrapper {
+    background-color: #24292e;
+  }
+
+  .js-header-wrapper > header {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
