@@ -1,17 +1,15 @@
 /* ==UserStyle==
 @name           Clean up the internet
 @namespace      github.com/openstyles/stylus
-@version        0.1.0
+@version        0.1.1
 @author         Phil
 @updateURL      https://raw.githubusercontent.com/olsonpm/user-css/dev/clean-up-the-internet.user.css
 ==/UserStyle== */
 
 @-moz-document regexp(".*") {
   #intercom-container,
-  #overlay-header {
-    display: none !important;
-  }
-
+  #overlay-header,
+  #credential_picker_container,
   #drift-widget-container {
     display: none !important;
   }
