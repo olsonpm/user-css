@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           mail.google.com
 @namespace      github.com/openstyles/stylus
-@version        0.1.0
+@version        0.1.1
 @author         Phil
 @updateURL      https://raw.githubusercontent.com/olsonpm/user-css/dev/mail.google.com.user.css
 ==/UserStyle== */
@@ -96,5 +96,9 @@
 
   .D.E.G-atb {
     margin-right: 0 !important;
+  }
+
+  .YM.YN.Y5 {
+    display: none;
   }
 }
