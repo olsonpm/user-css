@@ -10,4 +10,8 @@
   li[data-key="inbox"] .navigationItem-counter {
     display: none;
   }
+
+  .protonmailLogo-container.logo.plus::after {
+    display: none;
+  }
 }
