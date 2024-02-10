@@ -1,13 +1,15 @@
 /* ==UserStyle==
 @name           Clean up the internet
 @namespace      github.com/openstyles/stylus
-@version        0.1.1
+@version        0.1.2
 @author         Phil
 @updateURL      https://raw.githubusercontent.com/olsonpm/user-css/dev/clean-up-the-internet.user.css
 ==/UserStyle== */
 
 @-moz-document regexp(".*") {
   #intercom-container,
+  #intercom-frame,
+  .intercom-lightweight-app,
   #overlay-header,
   #credential_picker_container,
   #drift-widget-container {
